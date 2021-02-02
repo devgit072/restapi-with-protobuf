@@ -1,4 +1,4 @@
-Example of how to using http rest api with protobuf data format. 
+Example of how to implement http rest api in Go with protobuf data format. 
  
 Protobuf is modern data format and it has proven much faster and has much smaller payload size than JSON. 
   
