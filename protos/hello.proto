@@ -1,0 +1,15 @@
+syntax = "proto3";
+package hello;
+option go_package="protos;hellopb";
+
+message HelloRequest {
+  string request = 1;
+  string greeter = 2;
+  uint32 age = 3;
+}
+
+message HelloResponse {
+  string response = 1;
+  string responder = 2;
+  uint32 age = 3;
+}
